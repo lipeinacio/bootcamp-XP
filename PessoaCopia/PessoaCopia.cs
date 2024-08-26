@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace dotnet.Models
+namespace dotnet.PessoaCopia
 {
     public class Pessoa // Classe definida por Pessoa
     {
@@ -12,8 +12,7 @@ namespace dotnet.Models
 
         public void Apresentar() // Metodo
         {
-            Console.WriteLine($"Olá meu nome é {Nome}" +
-            $"e tenho {Idade} anos");
+            Console.WriteLine($"Olá meu nome é {Nome} e tenho {Idade} anos");
         }
     }
 }
