@@ -1,7 +1,22 @@
 ﻿using dotnet.Models;
 
-DateTime dataAtual = DateTime.Now.AddDays(5);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+
+
+    int a = int.Parse ("5");
+    Console.WriteLine(a);
+
+
+
+// Cast - Casting
+
+    // int a = Convert.ToInt32 ("5");
+    // Console.WriteLine(a);
+
+
+
+
+// DateTime dataAtual = DateTime.Now.AddDays(5);
+// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
 
 // string apresentacao = "Ola, seja bem vindo";
