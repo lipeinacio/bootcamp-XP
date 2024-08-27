@@ -1,16 +1,32 @@
 ﻿using dotnet.Models;
 
 
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 4;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
 
-    int a = int.Parse ("5");
-    Console.WriteLine(a);
+    Console.WriteLine($"Quantidade em Estoque: {quantidadeEmEstoque}");
+    Console.WriteLine($"Quantidade Compra: {quantidadeCompra}");
+    Console.WriteLine($"É possívek realizar a venda? {possivelVenda}");
+
+if (possivelVenda) 
+{
+    Console.WriteLine("Venda Realizada.");
+}
+else 
+{
+    Console.WriteLine("Desculpe. Não temos a quantidade em estoque.");
+}
 
 
 
-// Cast - Casting
+//     int a = int.Parse ("5");
+//     Console.WriteLine(a);
 
-    // int a = Convert.ToInt32 ("5");
-    // Console.WriteLine(a);
+// // Cast - Casting
+
+//     int a = Convert.ToInt32 ("5");
+//     Console.WriteLine(a);
 
 
 
