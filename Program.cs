@@ -1,22 +1,54 @@
 ﻿using System.Diagnostics;
 using dotnet.Models;
 
-Console.WriteLine("Digite uma letra");
-string? letra = Console.ReadLine();
 
-switch (letra)
+
+        // Operador NOT (!) -- Inversão de Operadores
+
+bool choveu = false;
+bool estaTarde = false;
+
+if (!choveu && !estaTarde)
 {
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("É uma Vogal");
-        break;
-    
-    default:
-        Console.WriteLine("Não é uma Vogal");
-        break;
+    Console.WriteLine("Vou pedalar");
+}
+else
+{
+    Console.WriteLine("Vou pedalar um outro dia");
+}
+
+
+
+
+
+        // Operador Logico AND (&&) -- TUDO TRUE
+
+bool possuiPresenca = true;
+double media = 7.5;
+
+if (possuiPresenca && media >= 7)
+{
+    Console.WriteLine("Aprovado!");
+}
+else
+{
+    Console.WriteLine("Reprovado!");
+}
+
+
+
+
+        // Operador Logico OR (||) -- PELO MENOS UM TRUE
+bool maiorDeIdade = false;
+bool possuiAutorizacao = false;
+
+if (maiorDeIdade || possuiAutorizacao)
+{
+    Console.WriteLine("Entrada Liberada");
+}
+else
+{
+    Console.WriteLine("Entrada Negada");
 }
 
 
@@ -25,6 +57,26 @@ switch (letra)
 
 
 
+
+
+
+// Console.WriteLine("Digite uma letra");
+// string? letra = Console.ReadLine();
+
+// switch (letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("É uma Vogal");
+//         break;
+    
+//     default:
+//         Console.WriteLine("Não é uma Vogal");
+//         break;
+// }
 
 
 
