@@ -2,54 +2,82 @@
 using dotnet.Models;
 
 
+Calculadora calc = new();
 
-        // Operador NOT (!) -- Inversão de Operadores
+calc.Somar(10,30);
+calc.Subtrair(10,30);
+calc.Multiplicar(10,30);
+calc.Dividir(10,30);
+calc.Potencia(3,3);
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
+calc.RaizQuadrada(2);
 
-bool choveu = false;
-bool estaTarde = false;
+int numero = 10;
 
-if (!choveu && !estaTarde)
-{
-    Console.WriteLine("Vou pedalar");
-}
-else
-{
-    Console.WriteLine("Vou pedalar um outro dia");
-}
+Console.WriteLine("Incremento o 10");
+// numero = numero + 1;
+numero ++;
 
-
-
-
-
-        // Operador Logico AND (&&) -- TUDO TRUE
-
-bool possuiPresenca = true;
-double media = 7.5;
-
-if (possuiPresenca && media >= 7)
-{
-    Console.WriteLine("Aprovado!");
-}
-else
-{
-    Console.WriteLine("Reprovado!");
-}
+Console.WriteLine(numero);
 
 
 
 
-        // Operador Logico OR (||) -- PELO MENOS UM TRUE
-bool maiorDeIdade = false;
-bool possuiAutorizacao = false;
 
-if (maiorDeIdade || possuiAutorizacao)
-{
-    Console.WriteLine("Entrada Liberada");
-}
-else
-{
-    Console.WriteLine("Entrada Negada");
-}
+
+
+
+
+
+//         // Operador NOT (!) -- Inversão de Operadores
+
+// bool choveu = false;
+// bool estaTarde = false;
+
+// if (!choveu && !estaTarde)
+// {
+//     Console.WriteLine("Vou pedalar");
+// }
+// else
+// {
+//     Console.WriteLine("Vou pedalar um outro dia");
+// }
+
+
+
+
+
+//         // Operador Logico AND (&&) -- TUDO TRUE
+
+// bool possuiPresenca = true;
+// double media = 7.5;
+
+// if (possuiPresenca && media >= 7)
+// {
+//     Console.WriteLine("Aprovado!");
+// }
+// else
+// {
+//     Console.WriteLine("Reprovado!");
+// }
+
+
+
+
+//         // Operador Logico OR (||) -- PELO MENOS UM TRUE
+// bool maiorDeIdade = false;
+// bool possuiAutorizacao = false;
+
+// if (maiorDeIdade || possuiAutorizacao)
+// {
+//     Console.WriteLine("Entrada Liberada");
+// }
+// else
+// {
+//     Console.WriteLine("Entrada Negada");
+// }
 
 
 
