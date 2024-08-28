@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "dotnet/1.0.0": {
+        "dependencies": {
+          "Fundamentos": "1.0.0"
+        },
         "runtime": {
           "dotnet.dll": {}
+        }
+      },
+      "Fundamentos/1.0.0": {
+        "runtime": {
+          "Fundamentos.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "dotnet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fundamentos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

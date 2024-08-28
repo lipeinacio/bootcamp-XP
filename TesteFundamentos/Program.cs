@@ -2,14 +2,66 @@
 using System.Runtime.InteropServices;
 using Fundamentos.Models;
 
-Pessoa p = new()
+List<string> listaString = [];
+
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
+
+for(int i = 0; i < listaString.Count; i++)
 {
-    Nome = "Felipe",
-    Idade = 21,
+    Console.WriteLine($"Posicao {i} - {listaString[i]}");
+}
+int x = 0;
 
-};
+foreach(string str in listaString)
+{
+    Console.WriteLine($"Posicao N°{x} - {listaString[x]}");
+    x++;
+}
 
-    p.Apresentar();
+
+
+
+int[] arrayInteiros = [72, 69, 50]; 
+// [] -> Um array armazena valores dentro de uma só variável.
+
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+// Array.Resize da um novo tamanho a um array.
+
+int[] arrayInteiros2 = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteiros2, arrayInteiros.Length);
+// Copia um Array e pode mudar seu tamanho
+
+
+for(int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    Console.WriteLine($"Posição N° {contador} - {arrayInteiros[contador]}");
+}
+
+foreach(int valor in arrayInteiros)
+{
+    Console.WriteLine(valor);
+}
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p = new()
+// {
+//     Nome = "Felipe",
+//     Idade = 21,
+
+// };
+
+//     p.Apresentar();
 
 
 // string opcao;
@@ -30,7 +82,7 @@ Pessoa p = new()
 //         case "1":
 //             Console.WriteLine("Cadastro de Cliente");
 //             break;
-        
+
 //         case "2":
 //             Console.WriteLine("Buscar Cliente");
 //             break;
@@ -206,7 +258,7 @@ Pessoa p = new()
 //     case "u":
 //         Console.WriteLine("É uma Vogal");
 //         break;
-    
+
 //     default:
 //         Console.WriteLine("Não é uma Vogal");
 //         break;
