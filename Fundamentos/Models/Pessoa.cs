@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace dotnet.Models
-{
+namespace Fundamentos.Models;
+
     public class Pessoa // Classe definida por Pessoa
     {
         public string Nome { get; set; } = "Sem Nome"; // Abstracao Realizada para adiquirir
@@ -13,7 +13,6 @@ namespace dotnet.Models
         public void Apresentar() // Metodo
         {
             Console.WriteLine($"Olá meu nome é {Nome}" +
-            $"e tenho {Idade} anos");
+            $" e tenho {Idade} anos");
         }
     }
-}
