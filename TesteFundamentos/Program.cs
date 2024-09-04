@@ -1,6 +1,63 @@
 ﻿using System.Diagnostics;
 using System.Runtime.InteropServices;
 using Fundamentos.Models;
+using Newtonsoft.Json;
+
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVendas = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach (Venda venda in listaVendas)
+{
+    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preco: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+}
+
+// DateTime dataAtual = DateTime.Now;
+
+// List<Venda> listaVendas = [];
+
+// Venda v1 = new(1,"Material de Escritorio",25.00M, dataAtual);
+// Venda v2 = new(2,"Licença de Software",110.00M, dataAtual);
+
+// listaVendas.Add(v1);
+// listaVendas.Add(v2);
+
+// string serializado = JsonConvert.SerializeObject(listaVendas,Formatting.Indented);
+
+// File.WriteAllText("Arquivos/vendas.json",serializado);
+
+// Console.WriteLine(serializado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

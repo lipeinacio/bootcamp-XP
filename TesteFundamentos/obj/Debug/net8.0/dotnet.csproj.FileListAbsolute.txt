@@ -17,3 +17,4 @@ C:\Users\felip\OneDrive\Documentos\estudos\dotnet\TesteFundamentos\bin\Debug\net
 C:\Users\felip\OneDrive\Documentos\estudos\dotnet\TesteFundamentos\bin\Debug\net8.0\Fundamentos.pdb
 C:\Users\felip\OneDrive\Documentos\estudos\dotnet\TesteFundamentos\obj\Debug\net8.0\dotnet.csproj.AssemblyReference.cache
 C:\Users\felip\OneDrive\Documentos\estudos\dotnet\TesteFundamentos\obj\Debug\net8.0\dotnet.csproj.Up2Date
+C:\Users\felip\OneDrive\Documentos\estudos\dotnet\TesteFundamentos\bin\Debug\net8.0\Newtonsoft.Json.dll
