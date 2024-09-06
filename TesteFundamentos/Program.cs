@@ -4,14 +4,14 @@ using Fundamentos.Models;
 using Newtonsoft.Json;
 
 
-string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
 
-List<Venda> listaVendas = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+// List<Venda> listaVendas = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
 
-foreach (Venda venda in listaVendas)
-{
-    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preco: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
-}
+// foreach (Venda venda in listaVendas)
+// {
+//     Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preco: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+// }
 
 // DateTime dataAtual = DateTime.Now;
 
