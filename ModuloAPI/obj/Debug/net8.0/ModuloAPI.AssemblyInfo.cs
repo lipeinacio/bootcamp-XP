@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Fundamentos.NET8")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ModuloAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb196f84492658e4d98c20d6c7da4d1c223de718")]
-[assembly: System.Reflection.AssemblyProductAttribute("Fundamentos.NET8")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Fundamentos.NET8")]
+[assembly: System.Reflection.AssemblyProductAttribute("ModuloAPI")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ModuloAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
