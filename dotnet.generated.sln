@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
@@ -14,18 +14,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fundamentos.NET8", "Fundamentos.NET8\Fundamentos.NET8.csproj", "{A6681760-79BC-465A-A9BA-4E40916943F0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet", "TesteFundamentos\dotnet.csproj", "{20D66681-892A-426C-A21D-2B3BFF0B5FDD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioProjetoHospedagem (1)", "trilha-net-explorando-desafio\DesafioProjetoHospedagem.csproj", "{238C0761-1108-49A5-8D35-0255897717B9}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "trilha-net-fundamentos-desafio", "trilha-net-fundamentos-desafio", "{30DC4FD3-D076-4E51-BD45-46A2D5FF1944}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioFundamentos", "trilha-net-fundamentos-desafio\DesafioFundamentos\DesafioFundamentos.csproj", "{032EF0C0-A4CD-4402-9EFC-A4179B3A3D18}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fundamentos", "trilha-net-fundamentos-desafio\Fundamentos\Fundamentos.csproj", "{4ED1933F-ED8F-4D40-8650-47CB1E658D26}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fundamentos.NET8", "trilha-net-fundamentos-desafio\Fundamentos.NET8\Fundamentos.NET8.csproj", "{AD6BD3A7-A669-4E41-BEF0-A2000D079236}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet", "trilha-net-fundamentos-desafio\TesteFundamentos\dotnet.csproj", "{027B9FD8-C07F-4B65-8560-48F1F0185DF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,31 +49,11 @@ Global
 		{238C0761-1108-49A5-8D35-0255897717B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{238C0761-1108-49A5-8D35-0255897717B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{238C0761-1108-49A5-8D35-0255897717B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{032EF0C0-A4CD-4402-9EFC-A4179B3A3D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{032EF0C0-A4CD-4402-9EFC-A4179B3A3D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{032EF0C0-A4CD-4402-9EFC-A4179B3A3D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{032EF0C0-A4CD-4402-9EFC-A4179B3A3D18}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4ED1933F-ED8F-4D40-8650-47CB1E658D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4ED1933F-ED8F-4D40-8650-47CB1E658D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4ED1933F-ED8F-4D40-8650-47CB1E658D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4ED1933F-ED8F-4D40-8650-47CB1E658D26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD6BD3A7-A669-4E41-BEF0-A2000D079236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD6BD3A7-A669-4E41-BEF0-A2000D079236}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD6BD3A7-A669-4E41-BEF0-A2000D079236}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD6BD3A7-A669-4E41-BEF0-A2000D079236}.Release|Any CPU.Build.0 = Release|Any CPU
-		{027B9FD8-C07F-4B65-8560-48F1F0185DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{027B9FD8-C07F-4B65-8560-48F1F0185DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{027B9FD8-C07F-4B65-8560-48F1F0185DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{027B9FD8-C07F-4B65-8560-48F1F0185DF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{032EF0C0-A4CD-4402-9EFC-A4179B3A3D18} = {30DC4FD3-D076-4E51-BD45-46A2D5FF1944}
-		{4ED1933F-ED8F-4D40-8650-47CB1E658D26} = {30DC4FD3-D076-4E51-BD45-46A2D5FF1944}
-		{AD6BD3A7-A669-4E41-BEF0-A2000D079236} = {30DC4FD3-D076-4E51-BD45-46A2D5FF1944}
-		{027B9FD8-C07F-4B65-8560-48F1F0185DF9} = {30DC4FD3-D076-4E51-BD45-46A2D5FF1944}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CEEF37E2-B6C6-45DC-AD37-BC192DA95FE3}
