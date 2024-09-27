@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felip\\OneDrive\\Documentos\\estudos\\dotnet\\ExemploPOO\\ExemploPOO.csproj": {}
+    "C:\\Users\\felip\\Documents\\dotnet\\ExemploPOO\\ExemploPOO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felip\\OneDrive\\Documentos\\estudos\\dotnet\\ExemploPOO\\ExemploPOO.csproj": {
+    "C:\\Users\\felip\\Documents\\dotnet\\ExemploPOO\\ExemploPOO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Documentos\\estudos\\dotnet\\ExemploPOO\\ExemploPOO.csproj",
+        "projectUniqueName": "C:\\Users\\felip\\Documents\\dotnet\\ExemploPOO\\ExemploPOO.csproj",
         "projectName": "ExemploPOO",
-        "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\estudos\\dotnet\\ExemploPOO\\ExemploPOO.csproj",
+        "projectPath": "C:\\Users\\felip\\Documents\\dotnet\\ExemploPOO\\ExemploPOO.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felip\\OneDrive\\Documentos\\estudos\\dotnet\\ExemploPOO\\obj\\",
+        "outputPath": "C:\\Users\\felip\\Documents\\dotnet\\ExemploPOO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config"

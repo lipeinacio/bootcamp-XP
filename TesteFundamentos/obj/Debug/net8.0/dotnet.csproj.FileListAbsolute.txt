@@ -18,3 +18,12 @@ C:\Users\felip\OneDrive\Documentos\estudos\dotnet\TesteFundamentos\bin\Debug\net
 C:\Users\felip\OneDrive\Documentos\estudos\dotnet\TesteFundamentos\obj\Debug\net8.0\dotnet.csproj.AssemblyReference.cache
 C:\Users\felip\OneDrive\Documentos\estudos\dotnet\TesteFundamentos\obj\Debug\net8.0\dotnet.csproj.Up2Date
 C:\Users\felip\OneDrive\Documentos\estudos\dotnet\TesteFundamentos\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\felip\Documents\dotnet\TesteFundamentos\obj\Debug\net8.0\dotnet.csproj.AssemblyReference.cache
+C:\Users\felip\Documents\dotnet\TesteFundamentos\obj\Debug\net8.0\dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\Documents\dotnet\TesteFundamentos\obj\Debug\net8.0\dotnet.AssemblyInfoInputs.cache
+C:\Users\felip\Documents\dotnet\TesteFundamentos\obj\Debug\net8.0\dotnet.AssemblyInfo.cs
+C:\Users\felip\Documents\dotnet\TesteFundamentos\obj\Debug\net8.0\dotnet.csproj.CoreCompileInputs.cache
+C:\Users\felip\Documents\dotnet\TesteFundamentos\obj\Debug\net8.0\dotnet.sourcelink.json
+C:\Users\felip\Documents\dotnet\TesteFundamentos\obj\Debug\net8.0\dotnet.dll
+C:\Users\felip\Documents\dotnet\TesteFundamentos\obj\Debug\net8.0\refint\dotnet.dll
+C:\Users\felip\Documents\dotnet\TesteFundamentos\obj\Debug\net8.0\dotnet.pdb

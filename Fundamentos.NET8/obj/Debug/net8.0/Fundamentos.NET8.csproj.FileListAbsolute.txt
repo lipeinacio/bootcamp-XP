@@ -1,0 +1,15 @@
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\bin\Debug\net8.0\Fundamentos.NET8.exe
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\bin\Debug\net8.0\Fundamentos.NET8.deps.json
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\bin\Debug\net8.0\Fundamentos.NET8.runtimeconfig.json
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\bin\Debug\net8.0\Fundamentos.NET8.dll
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\bin\Debug\net8.0\Fundamentos.NET8.pdb
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\obj\Debug\net8.0\Fundamentos.NET8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\obj\Debug\net8.0\Fundamentos.NET8.AssemblyInfoInputs.cache
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\obj\Debug\net8.0\Fundamentos.NET8.AssemblyInfo.cs
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\obj\Debug\net8.0\Fundamentos.NET8.csproj.CoreCompileInputs.cache
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\obj\Debug\net8.0\Fundamentos.NET8.sourcelink.json
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\obj\Debug\net8.0\Fundamentos.NET8.dll
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\obj\Debug\net8.0\refint\Fundamentos.NET8.dll
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\obj\Debug\net8.0\Fundamentos.NET8.pdb
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\obj\Debug\net8.0\Fundamentos.NET8.genruntimeconfig.cache
+C:\Users\felip\Documents\dotnet\Fundamentos.NET8\obj\Debug\net8.0\ref\Fundamentos.NET8.dll

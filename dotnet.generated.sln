@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
@@ -14,6 +14,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fundamentos.NET8", "Fundamentos.NET8\Fundamentos.NET8.csproj", "{A6681760-79BC-465A-A9BA-4E40916943F0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet", "TesteFundamentos\dotnet.csproj", "{20D66681-892A-426C-A21D-2B3BFF0B5FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudApi", "CrudApi\CrudApi.csproj", "{46920EBD-D165-47A4-8324-4914A42A287C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,14 @@ Global
 		{238C0761-1108-49A5-8D35-0255897717B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{238C0761-1108-49A5-8D35-0255897717B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{238C0761-1108-49A5-8D35-0255897717B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77053505-0D0F-455E-A590-102E6E67FF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77053505-0D0F-455E-A590-102E6E67FF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77053505-0D0F-455E-A590-102E6E67FF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77053505-0D0F-455E-A590-102E6E67FF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46920EBD-D165-47A4-8324-4914A42A287C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46920EBD-D165-47A4-8324-4914A42A287C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46920EBD-D165-47A4-8324-4914A42A287C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46920EBD-D165-47A4-8324-4914A42A287C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

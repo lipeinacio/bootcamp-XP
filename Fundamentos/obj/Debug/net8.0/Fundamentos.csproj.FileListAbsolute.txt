@@ -10,3 +10,15 @@ C:\Users\felip\OneDrive\Documentos\estudos\dotnet\Fundamentos\obj\Debug\net8.0\F
 C:\Users\felip\OneDrive\Documentos\estudos\dotnet\Fundamentos\obj\Debug\net8.0\refint\Fundamentos.dll
 C:\Users\felip\OneDrive\Documentos\estudos\dotnet\Fundamentos\obj\Debug\net8.0\Fundamentos.pdb
 C:\Users\felip\OneDrive\Documentos\estudos\dotnet\Fundamentos\obj\Debug\net8.0\ref\Fundamentos.dll
+C:\Users\felip\Documents\dotnet\Fundamentos\bin\Debug\net8.0\Fundamentos.deps.json
+C:\Users\felip\Documents\dotnet\Fundamentos\bin\Debug\net8.0\Fundamentos.dll
+C:\Users\felip\Documents\dotnet\Fundamentos\bin\Debug\net8.0\Fundamentos.pdb
+C:\Users\felip\Documents\dotnet\Fundamentos\obj\Debug\net8.0\Fundamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felip\Documents\dotnet\Fundamentos\obj\Debug\net8.0\Fundamentos.AssemblyInfoInputs.cache
+C:\Users\felip\Documents\dotnet\Fundamentos\obj\Debug\net8.0\Fundamentos.AssemblyInfo.cs
+C:\Users\felip\Documents\dotnet\Fundamentos\obj\Debug\net8.0\Fundamentos.csproj.CoreCompileInputs.cache
+C:\Users\felip\Documents\dotnet\Fundamentos\obj\Debug\net8.0\Fundamentos.sourcelink.json
+C:\Users\felip\Documents\dotnet\Fundamentos\obj\Debug\net8.0\Fundamentos.dll
+C:\Users\felip\Documents\dotnet\Fundamentos\obj\Debug\net8.0\refint\Fundamentos.dll
+C:\Users\felip\Documents\dotnet\Fundamentos\obj\Debug\net8.0\Fundamentos.pdb
+C:\Users\felip\Documents\dotnet\Fundamentos\obj\Debug\net8.0\ref\Fundamentos.dll

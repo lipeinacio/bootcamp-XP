@@ -76,11 +76,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Documentos\\estudos\\dotnet\\TesteFundamentos\\dotnet.csproj",
+      "projectUniqueName": "C:\\Users\\felip\\Documents\\dotnet\\TesteFundamentos\\dotnet.csproj",
       "projectName": "dotnet",
-      "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\estudos\\dotnet\\TesteFundamentos\\dotnet.csproj",
+      "projectPath": "C:\\Users\\felip\\Documents\\dotnet\\TesteFundamentos\\dotnet.csproj",
       "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\felip\\OneDrive\\Documentos\\estudos\\dotnet\\TesteFundamentos\\obj\\",
+      "outputPath": "C:\\Users\\felip\\Documents\\dotnet\\TesteFundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -95,8 +95,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\felip\\OneDrive\\Documentos\\estudos\\dotnet\\Fundamentos\\Fundamentos.csproj": {
-              "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\estudos\\dotnet\\Fundamentos\\Fundamentos.csproj"
+            "C:\\Users\\felip\\Documents\\dotnet\\Fundamentos\\Fundamentos.csproj": {
+              "projectPath": "C:\\Users\\felip\\Documents\\dotnet\\Fundamentos\\Fundamentos.csproj"
             }
           }
         }
