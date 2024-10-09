@@ -2950,9 +2950,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\felip\\Documents\\dotnet\\DesafioMinimal-API\\DesafioASP.NETMinimalSAPIs.csproj",
-      "projectName": "DesafioASP.NETMinimalSAPIs",
-      "projectPath": "C:\\Users\\felip\\Documents\\dotnet\\DesafioMinimal-API\\DesafioASP.NETMinimalSAPIs.csproj",
+      "projectUniqueName": "C:\\Users\\felip\\Documents\\dotnet\\DesafioMinimal-API\\DesafioMinimal-API.csproj",
+      "projectName": "DesafioMinimal-API",
+      "projectPath": "C:\\Users\\felip\\Documents\\dotnet\\DesafioMinimal-API\\DesafioMinimal-API.csproj",
       "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\felip\\Documents\\dotnet\\DesafioMinimal-API\\obj\\",
       "projectStyle": "PackageReference",
@@ -3034,7 +3034,7 @@
     {
       "code": "NU1107",
       "level": "Error",
-      "message": "Conflito de versão detectado para Microsoft.EntityFrameworkCore.Relational. Instale/referencie Microsoft.EntityFrameworkCore.Relational 9.0.0-rc.2.24474.1 diretamente no projeto DesafioASP.NETMinimalSAPIs para resolver esse problema. \r\n DesafioASP.NETMinimalSAPIs -> Microsoft.EntityFrameworkCore.Design 9.0.0-rc.2.24474.1 -> Microsoft.EntityFrameworkCore.Relational (>= 9.0.0-rc.2.24474.1) \r\n DesafioASP.NETMinimalSAPIs -> Pomelo.EntityFrameworkCore.MySql 9.0.0-preview.1 -> Microsoft.EntityFrameworkCore.Relational (>= 9.0.0-preview.1.24081.2 && <= 9.0.0-preview.1.999999).",
+      "message": "Conflito de versão detectado para Microsoft.EntityFrameworkCore.Relational. Instale/referencie Microsoft.EntityFrameworkCore.Relational 9.0.0-rc.2.24474.1 diretamente no projeto DesafioMinimal-API para resolver esse problema. \r\n DesafioMinimal-API -> Microsoft.EntityFrameworkCore.Design 9.0.0-rc.2.24474.1 -> Microsoft.EntityFrameworkCore.Relational (>= 9.0.0-rc.2.24474.1) \r\n DesafioMinimal-API -> Pomelo.EntityFrameworkCore.MySql 9.0.0-preview.1 -> Microsoft.EntityFrameworkCore.Relational (>= 9.0.0-preview.1.24081.2 && <= 9.0.0-preview.1.999999).",
       "libraryId": "Microsoft.EntityFrameworkCore.Relational",
       "targetGraphs": [
         "net8.0"

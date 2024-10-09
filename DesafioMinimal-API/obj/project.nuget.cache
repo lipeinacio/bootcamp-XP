@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "68uG3Sprrgs=",
+  "dgSpecHash": "jXapXewRu3g=",
   "success": false,
-  "projectFilePath": "C:\\Users\\felip\\Documents\\dotnet\\DesafioMinimal-API\\DesafioASP.NETMinimalSAPIs.csproj",
+  "projectFilePath": "C:\\Users\\felip\\Documents\\dotnet\\DesafioMinimal-API\\DesafioMinimal-API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felip\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
@@ -53,7 +53,7 @@
     {
       "code": "NU1107",
       "level": "Error",
-      "message": "Conflito de versão detectado para Microsoft.EntityFrameworkCore.Relational. Instale/referencie Microsoft.EntityFrameworkCore.Relational 9.0.0-rc.2.24474.1 diretamente no projeto DesafioASP.NETMinimalSAPIs para resolver esse problema. \r\n DesafioASP.NETMinimalSAPIs -> Microsoft.EntityFrameworkCore.Design 9.0.0-rc.2.24474.1 -> Microsoft.EntityFrameworkCore.Relational (>= 9.0.0-rc.2.24474.1) \r\n DesafioASP.NETMinimalSAPIs -> Pomelo.EntityFrameworkCore.MySql 9.0.0-preview.1 -> Microsoft.EntityFrameworkCore.Relational (>= 9.0.0-preview.1.24081.2 && <= 9.0.0-preview.1.999999).",
+      "message": "Conflito de versão detectado para Microsoft.EntityFrameworkCore.Relational. Instale/referencie Microsoft.EntityFrameworkCore.Relational 9.0.0-rc.2.24474.1 diretamente no projeto DesafioMinimal-API para resolver esse problema. \r\n DesafioMinimal-API -> Microsoft.EntityFrameworkCore.Design 9.0.0-rc.2.24474.1 -> Microsoft.EntityFrameworkCore.Relational (>= 9.0.0-rc.2.24474.1) \r\n DesafioMinimal-API -> Pomelo.EntityFrameworkCore.MySql 9.0.0-preview.1 -> Microsoft.EntityFrameworkCore.Relational (>= 9.0.0-preview.1.24081.2 && <= 9.0.0-preview.1.999999).",
       "libraryId": "Microsoft.EntityFrameworkCore.Relational",
       "targetGraphs": [
         "net8.0"
