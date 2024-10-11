@@ -1,5 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
+builder.Services.AddDbContext<DbContext>(options => {
+    options.UseMySql(builder.Configuration.GetConnectionString("mysql"),
+    ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("mysql")));
+});
 
 app.MapGet("/", () => "Hello World!");
 
