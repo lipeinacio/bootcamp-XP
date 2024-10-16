@@ -7,7 +7,7 @@ using Dominio.Entidades;
 
 namespace DesafioMinimalAPI.Dominio.Interfaces;
 
-    public interface IIAdministradorServico
+    public interface IAdministradorServico
     {
         Administrador? Login(LoginDTO loginDTO);
     }

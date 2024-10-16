@@ -1,27 +1,34 @@
 using DesafioMinimalAPI.Dominio.Interfaces;
+using DesafioMinimalAPI.Dominio.ModelViews;
 using DesafioMinimalAPI.Dominio.Sevicos;
 using Dominio.Entidades;
 using Infraestrutura.Db;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
+#region Builder
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddScoped<IIAdministradorServico, AdministradorServico>();
-
+builder.Services.AddScoped<IAdministradorServico, AdministradorServico>();
+builder.Services.AddScoped<IVeiculoServico, VeiculoServico>();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DbContexto>(options =>
 {
     options.UseMySql(builder.Configuration.GetConnectionString("mysql"),
     ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("mysql")));
 });
 
-
 var app = builder.Build();
+#endregion
 
-app.MapGet("/", () => "Hello World!");
+# region Home
+app.MapGet("/", () => Results.Json(new Home()));
+#endregion
 
-app.MapPost("/login", ([FromBody] Dominio.DTOs.LoginDTO loginDTO, IIAdministradorServico administradorServico) =>
+#region Administradores
+app.MapPost("/administradores/login", ([FromBody] Dominio.DTOs.LoginDTO loginDTO, IAdministradorServico administradorServico) =>
 {
     if(administradorServico.Login(loginDTO) != null)
         return Results.Ok("Login com Sucesso!");
@@ -30,5 +37,23 @@ app.MapPost("/login", ([FromBody] Dominio.DTOs.LoginDTO loginDTO, IIAdministrado
         return Results.Unauthorized();
 
 }) ;
+#endregion
 
+#region Veiculos
+app.MapPost("/veiculos", ([FromBody] Dominio.DTOs.VeiculoDTO veiculoDTO, IVeiculoServico veiculoServico) =>
+{
+    var veiculo = new Veiculo{
+        Nome = veiculoDTO.Nome,
+        Marca = veiculoDTO.Marca,
+        Ano = veiculoDTO.Ano,
+    };
+    veiculoServico.Incluir(veiculo);
+    return Results.Created($"/veiculo/{veiculo.Id}", veiculo);
+});
+#endregion
+
+#region App
+app.UseSwagger();
+app.UseSwaggerUI();
 app.Run();
+#endregion

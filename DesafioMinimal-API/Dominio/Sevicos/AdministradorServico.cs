@@ -9,7 +9,7 @@ using Infraestrutura.Db;
 
 namespace DesafioMinimalAPI.Dominio.Sevicos
 {
-    public class AdministradorServico : IIAdministradorServico
+    public class AdministradorServico : IAdministradorServico
     {
         private readonly DbContexto _contexto;
         public AdministradorServico(DbContexto db)
